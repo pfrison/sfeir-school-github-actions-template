@@ -1,0 +1,9 @@
+name: reusable workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  run-npm-test:
+    uses: ./.github/workflows/ex4.yaml
+#    with:
+#      node-version: 16
